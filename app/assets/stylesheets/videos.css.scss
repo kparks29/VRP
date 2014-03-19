@@ -1,0 +1,157 @@
+// Place all the styles related to the videos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap";
+$textcolor: gray;
+
+body {
+	background-color: black;
+	color: $textcolor;
+}
+
+fieldset {
+	border: 1px solid $textcolor;
+}
+
+h3, form {
+	text-align: center;
+	margin: 0 auto;
+}
+
+video {
+	margin-top: -100px;
+}
+
+#vr1, #vr2 {
+	padding: 0;
+	margin: 0;
+	width: 642px;
+	height: 768px;
+}
+
+#video1, #video2 {
+	float: left;
+	width: 602px;
+	height: 768px;
+	overflow: hidden;
+}
+
+#video1 {
+	position: relative;
+	z-index: 10;
+	left: 40px;
+}
+
+#video2 {
+	width: 642px;
+}
+
+#vrmain {
+	display: none;
+}
+
+.welcomeValidation form input {
+	margin: 10px;
+}
+
+.previews {
+	padding: 20px;
+}
+
+.terms {
+	text-align: center;
+	margin: 20px auto;
+	height: 350px;
+	width: 500px;
+	border: 1px solid $textcolor;
+	overflow:scroll;
+	padding: 20px;
+}
+
+.row, .main {
+	margin: 0 auto;
+}
+
+.main {
+	margin-top: -40px;
+}
+
+#welcomeLogo {
+	text-align: center;
+	margin: 50px auto;
+}
+
+#hotchick {
+	text-align: center;
+}
+
+#oculus-image {
+	position: absolute;
+	top: 340px;
+	left: 100px;
+	z-index: 10;
+}
+
+.demo-navbar {
+	height: 70px;
+	width: 80%;
+	margin: 0 auto;
+	background-color: rgba(50, 50, 50, 1);
+}
+
+.brand, .tagline {
+	line-height: 70px;
+	height: 70px;
+	vertical-align: middle;
+	float: left;
+	margin-right: 10px;
+}
+
+.brand {
+	font-size: 24px;
+	color: red;
+}
+
+.offer {
+	height: 80px;
+	width: 80%;
+	margin: 0 auto;
+	background-color: rgba(255,0,60, 1);
+}
+
+.offer-text {
+	font-size: 24px;
+	color: white;
+}
+
+.offer-text, .offer-button {
+	line-height: 80px;
+	height: 80px;
+	vertical-align: middle;
+	float: left;
+}
+
+.demo-container {
+	margin-top: 20px;
+}
+
+.demo-title, .demo-content, .testimony {
+	width: 80%;
+}
+
+.demo-content {
+	background-color: rgba(50, 50, 50, 1);
+	height: 500px;
+}
+
+.demo-video-links {
+	float: left;
+	width: 150px;
+
+}
+
+
+.clear {
+	clear: both;
+}
